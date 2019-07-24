@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/navigation" app:startDestination="@id/display_menu">
+
+    <fragment android:id="@+id/display_menu" android:name="com.cz.rurunote.DisplayFragment"
+              android:label="DisplayFragment"/>
+    <fragment android:id="@+id/calender_menu" android:name="com.cz.rurunote.CalenderFragment"
+              android:label="fragment_calender" tools:layout="@layout/fragment_calender"/>
+</navigation>
